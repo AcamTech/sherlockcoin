@@ -1,4 +1,4 @@
 obj/version.o: version.cpp version.h \
- /home/prosperous/Downloads/sherlockcoin-master/src/obj/build.h
+ /home/prosperous/sherlockcoin/src/obj/build.h
 version.cpp version.h :
- /home/prosperous/Downloads/sherlockcoin-master/src/obj/build.h :
+ /home/prosperous/sherlockcoin/src/obj/build.h :

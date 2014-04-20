@@ -5,7 +5,7 @@ SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define VERSION 1.2.1
+!define VERSION 1.2.2
 !define COMPANY "Sherlockcoin (SHC)"
 !define URL http://www.sherlockcoin.org/
 
@@ -45,13 +45,13 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile sherlockcoin-1.2.1-win32-setup.exe
+OutFile sherlockcoin-1.2.2-win32-setup.exe
 InstallDir $PROGRAMFILES\Sherlockcoin
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
-VIProductVersion 1.2.1.0
+VIProductVersion 1.2.2.0
 VIAddVersionKey ProductName Sherlockcoin
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
